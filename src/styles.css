@@ -6,12 +6,11 @@
 
 body {
 	font-family: "Roboto", san-serif;
-	padding: 30px;
 }
 
-/* header {
-	height: 100vh;
-} */
+header {
+	padding: 30px;
+}
 
 .profile-container {
 	background-image: url("./images/pexels-mart-production-7679873.jpg");
@@ -68,6 +67,8 @@ main {
 	flex-direction: column;
 	align-items: center;
 	padding-top: 40px;
+	padding-inline: 30px;
+	padding-bottom: 80px;
 }
 
 main h1 {
@@ -138,4 +139,34 @@ main h1 {
 
 .project-screenshot.color6 {
 	background-color: lightseagreen;
+}
+
+footer {
+	background-color: rgb(41, 194, 255);
+	padding: 30px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer h1 {
+	font-size: 3rem;
+	padding-bottom: 20px;
+}
+footer p {
+	line-height: 1.5;
+}
+
+footer .icons-container{
+	padding-top: 20px;
+}
+
+footer .project-description {
+	padding-bottom: 20px;
+}
+
+footer .footer-image {
+	
 }
